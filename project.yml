@@ -29,3 +29,13 @@ targets:
           - UIInterfaceOrientationPortrait
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
+
+schemes:
+  XingyeTest:
+    build:
+      targets:
+        XingyeTest: all
+    run:
+      config: Release
+    archive:
+      config: Release
