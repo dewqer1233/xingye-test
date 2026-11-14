@@ -22,9 +22,9 @@ jobs:
         run: |
           set -o pipefail
           xcodebuild -project XingyeTest.xcodeproj \
-            -target XingyeTest \
+            -scheme XingyeTest \
+            -destination 'generic/platform=iOS' \
             -configuration Release \
-            -sdk iphoneos \
             -derivedDataPath build \
             ARCHS=arm64 \
             CODE_SIGNING_ALLOWED=NO \
